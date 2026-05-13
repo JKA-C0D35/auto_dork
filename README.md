@@ -111,11 +111,8 @@ Status: 404 | URL: https://example.com/admin/login
 admin-finder/
 
 ├── admin_finder.py
-
 ├── README.md
-
 ├── LICENSE
-
 ├── requirements.txt
 
 

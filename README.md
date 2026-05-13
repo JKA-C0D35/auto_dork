@@ -44,16 +44,17 @@ It supports multiple dorks targeting different websites and domains, and automat
 ---
 
 ## 📥 Installation
-
+```
  git clone https://github.com/JKA-C0D35/auto_dork.git
  
  cd auto_dork
  
  python auto_dork.py
-
+```
 ---
 
 ## 🚀 Usage
+
  python auto_dork.py
 
  Example output:
@@ -81,6 +82,7 @@ auto_dork/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
+```
 
 ---
 

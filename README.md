@@ -2,7 +2,7 @@
 
 ---
 
-# 📌 About
+## 📌 About
 
 Admin Finder is a multithreaded Python tool that scans websites for common admin panel paths using fast HTTP requests and randomized User-Agent headers.
 
@@ -16,7 +16,7 @@ The tool is designed for:
 
 ---
 
-# ✨ Features
+## ✨ Features
 
  Multi-threaded scanning
  Random User-Agent rotation
@@ -27,13 +27,13 @@ The tool is designed for:
 
 ---
 
-# 🛠 Requirements
+## 🛠 Requirements
 Python 3.x
 
 No external libraries needed.
 
 Built-in Python modules used:
-
+```python
 
 import requests
 
@@ -46,7 +46,7 @@ import time
 
 ---
 
-# 📥 Installation
+## 📥 Installation
 
 Linux / Termux
 
@@ -80,7 +80,7 @@ pip install requests
 
 ---
 
-# 🚀 Usage
+## 🚀 Usage
 
 Run the script:
 
@@ -108,7 +108,7 @@ Status: 404 | URL: https://example.com/admin/login
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ---
 admin-finder/
@@ -120,7 +120,7 @@ admin-finder/
 
 ---
 
-# 🧠 What I Learned
+## 🧠 What I Learned
 
  Python threading
  HTTP requests handling
@@ -128,7 +128,7 @@ admin-finder/
  Automation scripting
  Error handling and exceptions
 
-# ⚠ Disclaimer
+## ⚠ Disclaimer
 
  This tool is intended for:
  Educational purposes
@@ -138,12 +138,12 @@ admin-finder/
  Do NOT use this tool against any website without permission.
  You are responsible for your actions.
 
-# 👤 Author
+## 👤 Author
  🧑 Developer: JKA-C0D35
  📦 Project: admin-finder
  🌐 GitHub: https://github.com/JKA-C0D35
 
-# ⭐ Support
+## ⭐ Support
 
 If you like this project, you can support it by:
 

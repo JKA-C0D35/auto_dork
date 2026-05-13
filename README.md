@@ -53,20 +53,20 @@ It supports multiple dorks targeting different websites and domains, and automat
 ```
 ---
 
-## 🚀 Usage
 
- python auto_dork.py
+## 💡 Alternative (mas malinis pa)
 
- Example output:
+```md id="fixout2"
+## 🚀 Example Output
 
- [1] inurl:php?id= site:.ph
- [2] inurl:news.php?id= site:.us
- [3] inurl:product.php?id= site:.com
-
+```bash
+[1] inurl:php?id= site:.ph
+[2] inurl:news.php?id= site:.us
+[3] inurl:product.php?id= site:.com
  Select a number:
 
  root@dorker:~# 1
-
+```
  The selected dork will automatically open in your browser.
 
 ---

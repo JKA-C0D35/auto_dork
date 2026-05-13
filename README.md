@@ -33,7 +33,6 @@ Python 3.x
 No external libraries needed.
 
 Built-in Python modules used:
-```python
 
 import requests
 
@@ -128,6 +127,8 @@ admin-finder/
  Automation scripting
  Error handling and exceptions
 
+---
+
 ## ⚠ Disclaimer
 
  This tool is intended for:
@@ -138,10 +139,14 @@ admin-finder/
  Do NOT use this tool against any website without permission.
  You are responsible for your actions.
 
+---
+
 ## 👤 Author
  🧑 Developer: JKA-C0D35
  📦 Project: admin-finder
  🌐 GitHub: https://github.com/JKA-C0D35
+
+---
 
 ## ⭐ Support
 

@@ -25,33 +25,34 @@ The tool is designed for:
 ---
 
 # 🛠 Requirements
+Python 3.x
 
-- Python 3.x
+No external libraries needed.
 
-Built-in / used libraries:
+Built-in Python modules used:
 
-```python
+
 import requests
 import threading
 import random
 import time
-📂 Admin Paths Included
-/admin
-/admin/login
-/admin/dashboard
-/administrator
-/cpanel
-/dashboard
-/backend
-/webadmin
-/siteadmin
-🚀 Installation
+
+
+---
+
+# 📥 Installation
+
 Linux / Termux
+
+
 pkg update && pkg upgrade
 pkg install python git
-git clone https://github.com/JKA-C0D35/admin-finder.git
-cd admin-finder
+git clone https://github.com/JKA-C0D35/admin_finder.git
+
+cd admin_finder
 pip install requests
+
+
 Windows
 
 Install Python first:
@@ -60,17 +61,57 @@ https://www.python.org/downloads/
 
 Then run:
 
-git clone https://github.com/JKA-C0D35/admin-finder.git
-cd admin-finder
+
+git clone https://github.com/JKA-C0D35/admin_finder.git
+
+cd admin_finder
 pip install requests
-▶️ Usage
+
+
+---
+
+# 🚀 Usage
+
+Run the script:
+
+
 python admin_finder.py
+
 
 Enter target URL:
 
+
 Target URL: https://example.com
 
-🧠 What I Learned
+
+Example output:
+
+
+Scanning: https://example.com
+
+Status: 200 | URL: https://example.com/admin
+
+Status: 404 | URL: https://example.com/admin/login
+
+[ERROR]: Connection timeout
+
+
+---
+
+# 📂 Project Structure
+
+
+admin-finder/
+│
+├── admin_finder.py
+├── README.md
+├── LICENSE
+├── requirements.txt
+
+
+---
+
+# 🧠 What I Learned
 
 Python threading
 HTTP requests handling
@@ -78,7 +119,7 @@ Web directory scanning
 Automation scripting
 Error handling and exceptions
 
-⚠ Disclaimer
+# ⚠ Disclaimer
 
 This tool is intended for:
 
@@ -91,7 +132,7 @@ Do NOT use this tool against any website without permission.
 
 You are responsible for your actions.
 
-👤 Author
+# 👤 Author
 🧑 Developer: JKA-C0D35
 📦 Project: admin-finder
 🌐 GitHub: https://github.com/JKA-C0D35

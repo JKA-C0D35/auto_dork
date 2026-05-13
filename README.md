@@ -1,158 +1,117 @@
-# 🔍 ADMIN FINDER
+A simple Python tool that automates Google dork searching directly from the terminal.
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Tool](https://img.shields.io/badge/Automation-Enabled-orange)
 
 ---
 
 ## 📌 About
 
-Admin Finder is a multithreaded Python tool that scans websites for common admin panel paths using fast HTTP requests and randomized User-Agent headers.
+Auto Dorker is a lightweight Python tool that helps automate Google dork searches using predefined queries.
 
-The tool is designed for:
-
- Security learning
- 
- Web reconnaissance practice
- 
- Educational penetration testing
+It supports multiple dorks targeting different websites and domains, and automatically opens results in the browser.
 
 ---
 
 ## ✨ Features
 
- Multi-threaded scanning
- Random User-Agent rotation
- Fast admin path detection
- Handles connection errors
- Beginner-friendly Python code
- Easy to modify and extend
+- Predefined Google dork list  
+- Automatic browser opening  
+- Lightweight and fast  
+- Beginner-friendly  
+- Easy to customize  
 
 ---
 
-## 🛠 Requirements
-Python 3.x
+## 🛠️ Requirements
 
-No external libraries needed.
+- Python 3.x  
+- No external libraries needed  
 
 Built-in Python modules used:
 
-import requests
-
-import threading
-
-import random
-
+python
+import os
 import time
-
+import random
+import webbrowser
 
 ---
 
 ## 📥 Installation
-
-Linux / Termux
-
-
-pkg update && pkg upgrade
-
-pkg install python git
-
-git clone https://github.com/JKA-C0D35/admin_finder.git
-
-cd admin_finder
-
-pip install requests
-
----
-Windows
-
-Install Python first:
-
-https://www.python.org/downloads/
-
-Then run:
-
-
-git clone https://github.com/JKA-C0D35/admin_finder.git
-
-cd admin_finder
-
-pip install requests
-
+git clone https://github.com/JKA-C0D35/auto_dork.git
+cd auto_dork
+python auto_dork.py
 
 ---
 
 ## 🚀 Usage
-
-Run the script:
-
-
-python admin_finder.py
-
-
-Enter target URL:
-
-
-Target URL: https://example.com
-
+python auto_dork.py
 
 Example output:
 
+[1] inurl:php?id= site:.ph
+[2] inurl:news.php?id= site:.us
+[3] inurl:product.php?id= site:.com
 
-Scanning: https://example.com
+Select a number:
 
-Status: 200 | URL: https://example.com/admin
+root@dorker:~# 1
 
-Status: 404 | URL: https://example.com/admin/login
-
-[ERROR]: Connection timeout
-
+The selected dork will automatically open in your browser.
 
 ---
 
 ## 📂 Project Structure
-
----
-admin-finder/
- │
- ├── admin_finder.py
- ├── README.md
- ├── LICENSE
- ├── requirements.txt
+auto_dork/
+│
+├── auto_dork.py
+├── README.md
+├── LICENSE
+├── requirements.txt
 
 ---
 
 ## 🧠 What I Learned
 
- Python threading
- HTTP requests handling
- Web directory scanning
- Automation scripting
- Error handling and exceptions
+This project helped improve my understanding of:
+
+Python automation scripting
+Google dorking concepts
+Browser automation using Python
+CLI input handling
+Basic tool development
 
 ---
 
-## ⚠ Disclaimer
+## ⚠️ Disclaimer
 
- This tool is intended for:
- Educational purposes
- Cybersecurity learning
- Bug bounty reconnaissance
- Authorized security testing
- Do NOT use this tool against any website without permission.
- You are responsible for your actions.
+This tool is for:
+
+Educational purposes
+Cybersecurity learning
+Bug bounty reconnaissance
+Security research
+
+Do NOT use this tool for illegal activities.
 
 ---
 
-## 👤 Author
- 🧑 Developer: JKA-C0D35
- 📦 Project: admin-finder
- 🌐 GitHub: https://github.com/JKA-C0D35
+## 👨‍💻 Author
+Developer: JKA-C0D35
+GitHub: https://github.com/JKA-C0D35
+Project: auto_dork
 
 ---
 
 ## ⭐ Support
 
-If you like this project, you can support it by:
+If you like this project:
 
-⭐ Starring the repository  
-🍴 Forking the project  
-🐛 Reporting bugs  
-🚀 Contributing improvements  
+⭐ Star the repository
+🍴 Fork the project
+🐛 Report bugs
+🚀 Contribute improvements

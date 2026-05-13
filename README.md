@@ -7,20 +7,23 @@
 Admin Finder is a multithreaded Python tool that scans websites for common admin panel paths using fast HTTP requests and randomized User-Agent headers.
 
 The tool is designed for:
-- Security learning
-- Web reconnaissance practice
-- Educational penetration testing
+
+ Security learning
+ 
+ Web reconnaissance practice
+ 
+ Educational penetration testing
 
 ---
 
 # ✨ Features
 
-- Multi-threaded scanning
-- Random User-Agent rotation
-- Fast admin path detection
-- Handles connection errors
-- Beginner-friendly Python code
-- Easy to modify and extend
+ Multi-threaded scanning
+ Random User-Agent rotation
+ Fast admin path detection
+ Handles connection errors
+ Beginner-friendly Python code
+ Easy to modify and extend
 
 ---
 
@@ -109,36 +112,36 @@ Status: 404 | URL: https://example.com/admin/login
 
 ---
 admin-finder/
-│
-├── admin_finder.py
-├── README.md
-├── LICENSE
-├── requirements.txt
+ │
+ ├── admin_finder.py
+ ├── README.md
+ ├── LICENSE
+ ├── requirements.txt
 
 ---
 
 # 🧠 What I Learned
 
--Python threading
--HTTP requests handling
--Web directory scanning
--Automation scripting
--Error handling and exceptions
+ Python threading
+ HTTP requests handling
+ Web directory scanning
+ Automation scripting
+ Error handling and exceptions
 
 # ⚠ Disclaimer
 
--This tool is intended for:
--Educational purposes
--Cybersecurity learning
--Bug bounty reconnaissance
--Authorized security testing
--Do NOT use this tool against any website without permission.
--You are responsible for your actions.
+ This tool is intended for:
+ Educational purposes
+ Cybersecurity learning
+ Bug bounty reconnaissance
+ Authorized security testing
+ Do NOT use this tool against any website without permission.
+ You are responsible for your actions.
 
 # 👤 Author
--🧑 Developer: JKA-C0D35
--📦 Project: admin-finder
--🌐 GitHub: https://github.com/JKA-C0D35
+ 🧑 Developer: JKA-C0D35
+ 📦 Project: admin-finder
+ 🌐 GitHub: https://github.com/JKA-C0D35
 
 # ⭐ Support
 

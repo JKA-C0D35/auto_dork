@@ -31,87 +31,86 @@ It supports multiple dorks targeting different websites and domains, and automat
 - Python 3.x  
 - No external libraries needed  
 
-Built-in Python modules used:
+- Built-in Python modules used:
 
-python
-import os
-import time
-import random
-import webbrowser
+- python
+- import os
+- import time
+- import random
+- import webbrowser
 
 ---
 
 ## 📥 Installation
-git clone https://github.com/JKA-C0D35/auto_dork.git
-cd auto_dork
-python auto_dork.py
+- git clone https://github.com/JKA-C0D35/auto_dork.git
+- cd auto_dork
+- python auto_dork.py
 
 ---
 
 ## 🚀 Usage
-python auto_dork.py
+- python auto_dork.py
 
-Example output:
+- Example output:
 
-[1] inurl:php?id= site:.ph
-[2] inurl:news.php?id= site:.us
-[3] inurl:product.php?id= site:.com
+- [1] inurl:php?id= site:.ph
+- [2] inurl:news.php?id= site:.us
+- [3] inurl:product.php?id= site:.com
 
-Select a number:
+- Select a number:
 
-root@dorker:~# 1
+- root@dorker:~# 1
 
-The selected dork will automatically open in your browser.
+- The selected dork will automatically open in your browser.
 
 ---
 
 ## 📂 Project Structure
-auto_dork/
-│
-├── auto_dork.py
-├── README.md
-├── LICENSE
-├── requirements.txt
+- auto_dork/
+-│
+-├── auto_dork.py
+-├── README.md
+-├── LICENSE
+-├── requirements.txt
 
 ---
 
 ## 🧠 What I Learned
 
-This project helped improve my understanding of:
+- This project helped improve my understanding of:
 
-Python automation scripting
-Google dorking concepts
-Browser automation using Python
-CLI input handling
-Basic tool development
+- Python automation scripting
+- Google dorking concepts
+- Browser automation using Python
+- CLI input handling
+- Basic tool development
 
 ---
 
 ## ⚠️ Disclaimer
 
-This tool is for:
+- This tool is for:
 
-Educational purposes
-Cybersecurity learning
-Bug bounty reconnaissance
-Security research
+- Educational purposes
+- Cybersecurity learning
+- Bug bounty reconnaissance
+- Security research
 
-Do NOT use this tool for illegal activities.
+- Do NOT use this tool for illegal activities.
 
 ---
 
 ## 👨‍💻 Author
-Developer: JKA-C0D35
-GitHub: https://github.com/JKA-C0D35
-Project: auto_dork
+- Developer: JKA-C0D35
+- GitHub: https://github.com/JKA-C0D35
+- Project: auto_dork
 
----
 
 ## ⭐ Support
 
-If you like this project:
+- If you like this project:
 
-⭐ Star the repository
-🍴 Fork the project
-🐛 Report bugs
-🚀 Contribute improvements
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🐛 Report bugs
+- 🚀 Contribute improvements

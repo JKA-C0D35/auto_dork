@@ -54,9 +54,9 @@ It supports multiple dorks targeting different websites and domains, and automat
 ---
 
 ## 🚀 Usage
-- python auto_dork.py
+ python auto_dork.py
 
-- Example output:
+ Example output:
 
  [1] inurl:php?id= site:.ph
  
@@ -64,17 +64,18 @@ It supports multiple dorks targeting different websites and domains, and automat
  
  [3] inurl:product.php?id= site:.com
 
-- Select a number:
+ Select a number:
 
-- root@dorker:~# 1
+ root@dorker:~# 1
 
-- The selected dork will automatically open in your browser.
+ The selected dork will automatically open in your browser.
 
 ---
 
 ## 📂 Project Structure
 
- auto_dork/
+ ```bash
+auto_dork/
 │
 ├── auto_dork.py
 ├── README.md

@@ -1,0 +1,7 @@
+# AUTO DORK REQUIREMENTS
+
+# This project uses only Python built-in modules:
+# os
+# time
+# random
+# webbrowser

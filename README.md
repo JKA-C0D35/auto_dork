@@ -107,7 +107,7 @@ Status: 404 | URL: https://example.com/admin/login
 
 # 📂 Project Structure
 
-
+---
 admin-finder/
 │
 ├── admin_finder.py
@@ -119,26 +119,26 @@ admin-finder/
 
 # 🧠 What I Learned
 
-Python threading
-HTTP requests handling
-Web directory scanning
-Automation scripting
-Error handling and exceptions
+-Python threading
+-HTTP requests handling
+-Web directory scanning
+-Automation scripting
+-Error handling and exceptions
 
 # ⚠ Disclaimer
 
-This tool is intended for:
-Educational purposes
-Cybersecurity learning
-Bug bounty reconnaissance
-Authorized security testing
-Do NOT use this tool against any website without permission.
-You are responsible for your actions.
+-This tool is intended for:
+-Educational purposes
+-Cybersecurity learning
+-Bug bounty reconnaissance
+-Authorized security testing
+-Do NOT use this tool against any website without permission.
+-You are responsible for your actions.
 
 # 👤 Author
-🧑 Developer: JKA-C0D35
-📦 Project: admin-finder
-🌐 GitHub: https://github.com/JKA-C0D35
+-🧑 Developer: JKA-C0D35
+-📦 Project: admin-finder
+-🌐 GitHub: https://github.com/JKA-C0D35
 
 # ⭐ Support
 

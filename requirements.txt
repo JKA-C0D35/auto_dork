@@ -1,6 +1,6 @@
 # AUTO DORK REQUIREMENTS
-
-# This project uses only Python built-in modules:
+# No external dependencies required
+# Uses only Python built-in modules:
 # os
 # time
 # random

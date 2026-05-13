@@ -151,10 +151,11 @@ You are responsible for your own actions.
 
 ---
 
-# ❤️ Author
+## 👤 Author
 
-Made with Python & caffeine ☕
-
+- GitHub: https://github.com/JKA-C0D35
+- Project: auto_dork
+- Developer: JKA-C0D35
 ---
 
 # ⭐ Support

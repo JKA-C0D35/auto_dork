@@ -33,7 +33,6 @@ It supports multiple dorks targeting different websites and domains, and automat
 
 - Built-in Python modules used:
 
-- python
 - import os
 - import time
 - import random
@@ -42,9 +41,9 @@ It supports multiple dorks targeting different websites and domains, and automat
 ---
 
 ## 📥 Installation
-- git clone https://github.com/JKA-C0D35/auto_dork.git
-- cd auto_dork
-- python auto_dork.py
+ git clone https://github.com/JKA-C0D35/auto_dork.git
+ cd auto_dork
+ python auto_dork.py
 
 ---
 
@@ -53,9 +52,9 @@ It supports multiple dorks targeting different websites and domains, and automat
 
 - Example output:
 
-- [1] inurl:php?id= site:.ph
-- [2] inurl:news.php?id= site:.us
-- [3] inurl:product.php?id= site:.com
+ [1] inurl:php?id= site:.ph
+ [2] inurl:news.php?id= site:.us
+ [3] inurl:product.php?id= site:.com
 
 - Select a number:
 
@@ -66,18 +65,19 @@ It supports multiple dorks targeting different websites and domains, and automat
 ---
 
 ## 📂 Project Structure
-- auto_dork/
--│
--├── auto_dork.py
--├── README.md
--├── LICENSE
--├── requirements.txt
+
+ auto_dork/
+│
+├── auto_dork.py
+├── README.md
+├── LICENSE
+├── requirements.txt
 
 ---
 
 ## 🧠 What I Learned
 
-- This project helped improve my understanding of:
+ This project helped improve my understanding of:
 
 - Python automation scripting
 - Google dorking concepts
@@ -89,28 +89,28 @@ It supports multiple dorks targeting different websites and domains, and automat
 
 ## ⚠️ Disclaimer
 
-- This tool is for:
+ This tool is for:
 
 - Educational purposes
 - Cybersecurity learning
 - Bug bounty reconnaissance
 - Security research
 
-- Do NOT use this tool for illegal activities.
+ Do NOT use this tool for illegal activities.
 
 ---
 
 ## 👨‍💻 Author
-- Developer: JKA-C0D35
-- GitHub: https://github.com/JKA-C0D35
-- Project: auto_dork
+ Developer: JKA-C0D35
+ GitHub: https://github.com/JKA-C0D35
+ Project: auto_dork
 
 
 ## ⭐ Support
 
-- If you like this project:
+ If you like this project:
 
-- ⭐ Star the repository
-- 🍴 Fork the project
-- 🐛 Report bugs
-- 🚀 Contribute improvements
+ ⭐ Star the repository
+ 🍴 Fork the project
+ 🐛 Report bugs
+ 🚀 Contribute improvements

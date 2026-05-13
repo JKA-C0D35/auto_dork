@@ -12,6 +12,8 @@ A simple Python tool that automates Google dork searching directly from the term
 
 Auto Dorker is a lightweight Python tool that helps automate Google dork searches using predefined queries.
 
+
+
 It supports multiple dorks targeting different websites and domains, and automatically opens results in the browser.
 
 ---
@@ -28,10 +30,11 @@ It supports multiple dorks targeting different websites and domains, and automat
 
 ## 🛠️ Requirements
 
-- Python 3.x  
-- No external libraries needed  
+ Python 3.x
+ 
+ No external libraries needed  
 
-- Built-in Python modules used:
+  Built-in Python modules used:
 
 - import os
 - import time
@@ -41,8 +44,11 @@ It supports multiple dorks targeting different websites and domains, and automat
 ---
 
 ## 📥 Installation
+
  git clone https://github.com/JKA-C0D35/auto_dork.git
+ 
  cd auto_dork
+ 
  python auto_dork.py
 
 ---
@@ -53,7 +59,9 @@ It supports multiple dorks targeting different websites and domains, and automat
 - Example output:
 
  [1] inurl:php?id= site:.ph
+ 
  [2] inurl:news.php?id= site:.us
+ 
  [3] inurl:product.php?id= site:.com
 
 - Select a number:
@@ -102,7 +110,9 @@ It supports multiple dorks targeting different websites and domains, and automat
 
 ## 👨‍💻 Author
  Developer: JKA-C0D35
+ 
  GitHub: https://github.com/JKA-C0D35
+ 
  Project: auto_dork
 
 
@@ -111,6 +121,9 @@ It supports multiple dorks targeting different websites and domains, and automat
  If you like this project:
 
  ⭐ Star the repository
+ 
  🍴 Fork the project
+ 
  🐛 Report bugs
+ 
  🚀 Contribute improvements

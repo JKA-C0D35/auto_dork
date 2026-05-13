@@ -58,7 +58,7 @@ cd admin_finder
 
 pip install requests
 
-
+---
 Windows
 
 Install Python first:
@@ -109,48 +109,35 @@ Status: 404 | URL: https://example.com/admin/login
 
 
 admin-finder/
-
+│
 ├── admin_finder.py
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-
 
 ---
 
 # 🧠 What I Learned
 
 Python threading
-
 HTTP requests handling
-
 Web directory scanning
-
 Automation scripting
-
 Error handling and exceptions
 
 # ⚠ Disclaimer
 
 This tool is intended for:
-
 Educational purposes
-
 Cybersecurity learning
-
 Bug bounty reconnaissance
-
 Authorized security testing
-
 Do NOT use this tool against any website without permission.
-
 You are responsible for your actions.
 
 # 👤 Author
 🧑 Developer: JKA-C0D35
-
 📦 Project: admin-finder
-
 🌐 GitHub: https://github.com/JKA-C0D35
 
 # ⭐ Support

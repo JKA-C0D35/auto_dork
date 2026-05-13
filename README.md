@@ -1,34 +1,41 @@
-```
-# 🔍 Admin Finder
-
-A multithreaded Python-based admin panel finder for educational and authorized security testing purposes.
+# 🔍 ADMIN FINDER
 
 ---
 
-## 📌 Description
-Admin Finder is a lightweight Python tool that scans websites for common admin panel paths using multithreading and randomized User-Agent headers.
+# 📌 About
+
+Admin Finder is a multithreaded Python tool that scans websites for common admin panel paths using fast HTTP requests and randomized User-Agent headers.
+
+The tool is designed for:
+- Security learning
+- Web reconnaissance practice
+- Educational penetration testing
 
 ---
 
-## ⚡ Features
+# ✨ Features
+
 - Multi-threaded scanning
 - Random User-Agent rotation
 - Fast admin path detection
 - Handles connection errors
 - Beginner-friendly Python code
+- Easy to modify and extend
 
 ---
 
-## 🛠️ Built With
-- Python 3
-- requests
-- threading
-- random
-- time
+# 🛠 Requirements
 
----
+- Python 3.x
 
-## 📂 Admin Paths Included
+Built-in / used libraries:
+
+```python
+import requests
+import threading
+import random
+import time
+📂 Admin Paths Included
 /admin
 /admin/login
 /admin/dashboard
@@ -38,29 +45,38 @@ Admin Finder is a lightweight Python tool that scans websites for common admin p
 /backend
 /webadmin
 /siteadmin
-
----
-
-## 🚀 Installation
+🚀 Installation
+Linux / Termux
+pkg update && pkg upgrade
+pkg install python git
 git clone https://github.com/JKA-C0D35/admin-finder.git
 cd admin-finder
 pip install requests
+Windows
 
----
+Install Python first:
 
-## ▶️ Usage
+https://www.python.org/downloads/
+
+Then run:
+
+git clone https://github.com/JKA-C0D35/admin-finder.git
+cd admin-finder
+pip install requests
+▶️ Usage
 python admin_finder.py
 
----
+Enter target URL:
 
-## 🧠 What I Learned
-- Python threading
-- HTTP requests
-- Web path scanning
-- Automation scripting
-- Error handling
+Target URL: https://example.com
 
----
+🧠 What I Learned
+
+Python threading
+HTTP requests handling
+Web directory scanning
+Automation scripting
+Error handling and exceptions
 
 ⚠ Disclaimer
 
@@ -69,28 +85,22 @@ This tool is intended for:
 Educational purposes
 Cybersecurity learning
 Bug bounty reconnaissance
-Security research
+Authorized security testing
 
-Do NOT use this tool for illegal activities.
+Do NOT use this tool against any website without permission.
 
-You are responsible for your own actions.
+You are responsible for your actions.
 
----
+👤 Author
+🧑 Developer: JKA-C0D35
+📦 Project: admin-finder
+🌐 GitHub: https://github.com/JKA-C0D35
 
-## 👤 Author
+# ⭐ Support
 
-- 🧑 Developer: JKA-C0D35
-- 📦 Project: auto_dork
-- 🌐 GitHub: https://github.com/JKA-C0D35
+If you like this project, you can support it by:
 
-```
-```
-⭐ Support
-
-If you like this project:
-
-⭐ Star the repository
-🍴 Fork the project
-🐛 Report bugs
-🚀 Contribute improvements
-```
+⭐ Starring the repository  
+🍴 Forking the project  
+🐛 Reporting bugs  
+🚀 Contributing improvements  

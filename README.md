@@ -1,4 +1,4 @@
-```txt
+```
 # 🔍 Admin Finder
 
 A multithreaded Python-based admin panel finder for educational and authorized security testing purposes.

@@ -23,10 +23,15 @@ The tool automatically opens selected searches in your default browser.
 # ✨ Features
 
 ✅ Large built-in dork list
+
 ✅ Country-based dorks
+
 ✅ Browser auto-open
+
 ✅ Hacker-style terminal output
+
 ✅ Lightweight and fast
+
 ✅ Beginner friendly
 
 ---
@@ -40,10 +45,14 @@ No external libraries needed.
 Built-in Python modules used:
 
 ```python
-import os
-import time
-import random
-import webbrowser
+# No external dependencies required
+
+# Uses only Python built-in modules
+
+os
+time
+random
+webbrowser
 ```
 
 ---
@@ -53,11 +62,20 @@ import webbrowser
 ## Linux / Termux
 
 ```bash
-pkg update && pkg upgrade
-pkg install python git
-git clone https://github.com/JKA-C0D35/google-dorker.git
-cd google-dorker
-python dorker.py
+# Update Termux packages
+pkg update && pkg upgrade -y
+
+# Install dependencies
+pkg install python git -y
+
+# Clone repository
+git clone https://github.com/JKA-C0D35/auto_dork.git
+
+# Enter folder
+cd auto_dork
+
+# Run tool
+python auto_dork.py
 ```
 
 ---
@@ -71,9 +89,9 @@ https://www.python.org/downloads/
 Then run:
 
 ```bash
-git clone https://github.com/JKA-C0D35/google-dorker.git
-cd google-dorker
-python dorker.py
+git clone https://github.com/JKA-C0D35/auto_dork.git
+cd auto_dork
+python auto_dork.py
 ```
 
 ---
@@ -83,7 +101,7 @@ python dorker.py
 Run the script:
 
 ```bash
-python dorker.py
+python auto_dork.py
 ```
 
 Example output:
@@ -107,10 +125,13 @@ The selected Google dork will automatically open in your browser.
 # 📂 Project Structure
 
 ```bash
-google-dorker/
+auto_dork/
 │
-├── dorker.py
-└── README.md
+├── auto_dork.py
+├── README.md
+├── LICENSE
+└── requirements.txt
+
 ```
 
 ---
